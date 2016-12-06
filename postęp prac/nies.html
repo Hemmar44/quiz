@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+
+<title>Test</title>
+
+<meta charset="utf-8"/>
+<!--<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">-->
+<link rel="stylesheet" href="style.css"/>
+<script src="jquery-3.1.1.min.js"></script>
+<!--<script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>-->
+<script type = "text/javascript" src ="test.js"></script>
+
+</head>
+<body>
+<div class="welcome">
+<header>
+<h1>Quiz dla drugoklasisty</h1>
+</header>
+
+<ol></ol>
+<main>
+
+<div class="welcomeP">Witaj, za chwilkę weźmiesz udział w Quizie, odpowiesz na 10 pytań, na każde pytanie możesz odpowiedzieć tylko raz, jeżeli udzielisz złej odpowiedzi nie otrzymasz punktu, jeżeli udzielisz dobrej punkt otrzymasz. Po wpisaniu odpowiedzi i naciścnięciu przycisku odpowiedź nie będziesz mógł już jej poprawić. Aby móc wybrać kategorię musisz podać imię.</div>
+<div class="enterName">
+<h3>Podaj swoje imię</h3>
+<input type="text" placeholder="Imię" id="name"/>
+<input id="changePlayer" type="submit" value="zmień Gracza"/>
+<div id="startQuizDiv">
+<div class="startButtons">
+<h4>Matematyka</h4>
+<button class="startQuiz" id="Quiz1" disabled="disabled">Zestaw 1</button>
+<button class="startQuiz" id="Quiz2" disabled="disabled">Zestaw 2</button>
+</div>
+<div class="startButtons">
+<h4>Język Polski</h4>
+<button class="startQuiz" id="Quiz3" disabled="disabled">Zestaw 3</button>
+<button class="startQuiz" id="Quiz4" disabled="disabled">Zestaw 4</button>
+<div class="startButtons">
+<h4>Język Angielski</h4>
+<button class="startQuiz" id="Quiz5" disabled="disabled">Zestaw 5</button>
+<button class="startQuiz" id="Quiz6" disabled="disabled">Zestaw 6</button>
+</div>
+</div>
+<div id="totalScore" >Łączny wynik: <span id="total"></span>/<span id="maximum"></span></div>
+
+</main>
+
+</div>
+<div class="container">
+	<header>
+		<h1>Zadania</h1>
+	</header>
+	<main>
+		<section>
+			<h2>Zadanie: <span id="questionNumber">0</span>/<span id="questionsQuantity"></span></h2>
+			<div id="pierwszy"> 
+			<div id="drugi"></div>
+			</div>
+		</section>
+		<div id="heightDefender">
+		<p></p>
+		<form>
+		<div class="buttonHolder">
+		<div class="radioButtons"><input type="radio"  id="question1" class="questions"><label for="question1" class="questionsLabels"></label></input></div>
+		<div class="radioButtons"><input type="radio"  id="question2" class="questions"><label for="question2" class="questionsLabels"></label></input></div>
+		<div class="radioButtons"><input type="radio"  id="question3" class="questions"><label for="question3" class="questionsLabels"></label></input></div>
+		<div class="radioButtons"><input type="radio"  id="question4" class="questions"><label for="question4" class="questionsLabels"></label></input></div>
+		</div>
+		</form>
+		<div id="textCenter">
+		<div id="thankYou">Dzięki za grę Ania</div>
+		</div>		
+		</div>
+		<figure>
+			<input type="text" id="getAnswer"/>
+		</figure>
+		<figure>
+			<button id="submitAnswer">Odpowiedz</button>
+			<button id="next" disabled="disabled">Następne</button>
+			<button id="nextDyk" disabled="disabled">Następne</button>
+			<button id="nextRadio" disabled="disabled">Next</button>
+			<button id="end">Koniec</button>
+			<button id="endDyk" disabled="disabled">Podsumowanie</button>
+			<button id="endRadio" disabled="disabled">Summary</button>
+			<button id="restart">Powrót</button>
+			<button id="restartDyk">Powrót</button>
+			<button id="restartRadio">Back</button>
+		</figure>
+		<section>
+			<div id="heightDefender2">
+				<div id="answer"></div>
+				<div id="summary"></div>
+			</div>
+			<div id="pointsCounter">Liczba punktów: <span id="points">0</span></div>
+		</section>
+	</main>
+</div>
+<a href="http://www.freepik.com">Designed by Freepik</a>
+</body>
+</html>

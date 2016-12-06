@@ -1,0 +1,24 @@
+
+
+
+@keyframes animowanyNapis {
+	0% { transform:translateX(100px); color:red ;}
+	25%{transform:rotate(10deg); color:green;}
+    50% { transform: translateX(-100px); color:blue ;}
+	75% {transform:rotate(-10deg);color:pink;}
+    100%   { transform: translateX(100px); color:yellow;}
+
+	}
+
+.animowaneFig {
+	animation: animowanyNapis 5s linear infinite;
+}
+
+
+#textCenter {
+	text-align:center;
+}
+
+#thankYou {
+	font-size:36px;;
+}

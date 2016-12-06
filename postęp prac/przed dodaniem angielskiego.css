@@ -1,0 +1,292 @@
+body {
+	margin:0;
+	background-image:url(70118-ODLEWQ-363.jpg);
+	background-size:100% auto;
+	background-repeat:no-repeat;
+	background-color: rgba(179,187,255,1);
+	font-family: 'Lato', sans-serif;
+}
+
+
+/*header section*/
+
+header {
+	margin:0 auto;
+	width: 73.20644444%;
+	text-align:center;
+	background-color: rgba(103,119,255,0.9)
+}
+
+h1 {
+	margin:0;
+	padding:10px;
+	font-size: 3.125em;
+	border:5px solid rgba(51,59,127,1);
+}
+
+/*quiz section*/
+
+main {
+	min-height:450px;
+	background-color:rgba(255,238,179,0.92);
+	margin:20px auto;
+	width: 58.5651%;
+	border:5px solid rgba(108,115,178,1);
+}
+
+section {
+	width:100%;
+	text-align:center;
+}
+
+#heightDefender {
+	min-height:105px;
+	width:100%;
+	margin:0 0 10px;
+}
+
+p {
+	width:90%;
+	text-align:justify;
+	line-height:1.5;
+	margin:0 auto;
+}
+
+#thankYou {
+	display:none;
+}
+	
+
+figure {
+	text-align:center;
+}
+
+input[type='text'] {
+	background-color:#ffffff;
+	width:100px;
+	border:none;
+	border-bottom:2px inset  rgba(103,119,255,0.8);
+	text-align:center;
+	padding:3px;
+
+}
+
+input[type='text']:focus {
+	background-color:#E8E8FF;
+}
+
+#summary {
+	padding-top:10px;
+	font-size:1.5em;
+	display:none;
+	width:95%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+button {
+	background-color: rgba(40,96,144,1);
+	border-radius:10%;
+	padding:8px;
+	border:1px solid white;
+	font-size:1em;
+	color:white;
+	font-weight:bold;
+}
+
+button[disabled="disabled"] {
+	background-color: rgba(220,220,220,1);
+	border-radius:10%;
+	padding:8px;
+	border:1px solid white;
+	font-size:1em;
+	color:white;
+	font-weight:bold;
+}
+button:hover {
+	background-color: rgba(51,122,183,1);
+	cursor:pointer;
+	color: rgba(255,255,255,1);
+}
+
+button[disabled="disabled"]:hover {
+	cursor:not-allowed;
+	background-color: rgba(220,220,220,1);
+	
+}
+
+#Quiz1 {
+	background-image : url(images/avengers.jpg);
+	background-size:100% auto;
+	background-repeat:no-repeat;
+	color: rgba(255,255,255,1);
+	padding:20px;
+	margin:0 10px 0 10px;
+}
+
+#Quiz1[disabled="disabled"] {
+	color: rgba(255,255,255,.7);
+}
+
+#Quiz2 {
+	background-image : url(images/starwars.jpeg);
+	background-size:100% auto;
+	background-repeat:no-repeat;
+	color: rgba(255,255,255,1);
+	padding:20px;
+	margin:0 10px 0 10px;
+}
+
+#Quiz2[disabled="disabled"] {
+	color: rgba(255,255,255,.7);
+}
+
+#Quiz3 {
+	background-image : url(images/nexo.jpg);
+	background-size:100% auto;
+	background-repeat:no-repeat;
+	color: rgba(255,255,255,1);
+	padding:20px;
+	margin:0 10px 0 10px;
+}
+
+#Quiz3[disabled="disabled"] {
+	color: rgba(255,255,255,.7);
+}
+
+#Quiz4 {
+	background-image : url(images/biedronka.jpeg);
+	background-size:100% auto;
+	background-repeat:no-repeat;
+	color: rgba(255,255,255,1);
+	padding:20px;
+	margin:0 10px 0 10px;
+}
+
+#Quiz4[disabled="disabled"] {
+	color: rgba(255,255,255,.7);
+}
+
+#Quiz5 {
+	background-image : url(images/vege.jpg);
+	background-size:100% auto;
+	background-repeat:no-repeat;
+	color: rgba(255,255,255,1);
+	padding:20px;
+	margin:0 10px 10px 10px;
+}
+
+#Quiz5[disabled="disabled"] {
+	color: rgba(255,255,255,.7);
+}
+
+#Quiz6 {
+	background-image : url(images/rodzina.jpg);
+	background-size:100% auto;
+	background-repeat:no-repeat;
+	color: rgba(255,255,255,1);
+	padding:20px;
+	margin:0 10px 10px 10px;
+}
+
+#Quiz6[disabled="disabled"] {
+	color: rgba(255,255,255,.7);
+}
+
+
+#heightDefender2 {
+	min-height:60px;
+	margin-bottom:10px;
+}
+#answer {
+	padding-top:10px;
+	font-size:2em;
+	display:none;
+}
+
+#end, #nextDyk, #endDyk, #restartDyk {
+	display:none;
+}
+
+h4 {
+	margin:10px 0 ;
+}
+
+@keyframes animowanyNapis {
+	0% { transform:translateX(100px); color:red ;}
+	25%{transform:rotate(10deg); color:green;}
+    50% { transform: translateX(-100px); color:blue ;}
+	75% {transform:rotate(-10deg);color:pink;}
+    100%   { transform: translateX(100px); color:yellow;}
+
+	}
+
+.animowaneFig {
+	animation: animowanyNapis 5s linear infinite;
+}
+
+
+#textCenter {
+	text-align:center;
+}
+
+#thankYou {
+	font-size:36px;
+	display:none;
+	padding-top:20px;
+}
+
+#restart {
+	display:none;
+}
+
+#pointsCounter {
+	padding-bottom:10px;
+}
+/*progress bar*/
+
+#pierwszy {
+	min-height:40px;
+	padding:5px;
+	width:500px;
+	background-color:rgba(179,187,255,1);
+	margin:0 auto 20px;
+}
+#drugi {
+	min-height:40px;
+	width:0;
+	background-color:rgba(103,119,255,0.8);
+}
+
+.inputs {
+	width:15px;
+	border:none;
+	border-bottom:2px solid #5958B2;
+}
+
+
+/*welcome site*/
+
+.container {
+	display:none;
+}
+
+.enterName {
+	text-align:center;
+}
+
+.welcomeP {
+	margin-top:20px;
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#startQuizDiv {
+	margin-top:10px;
+}
+
+a {
+	font-size:10px;
+	color:white;
+}
